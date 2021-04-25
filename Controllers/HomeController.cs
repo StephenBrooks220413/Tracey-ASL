@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace Tracey_ASL.Controllers
 {
+    [System.Web.Mvc.Authorize]
     public class HomeController : Controller
     {
         public ActionResult Index()
