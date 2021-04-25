@@ -13,8 +13,30 @@
     background-size: cover;
     height: auto;
     width: 100%;
+    height: auto;
     padding-top: 20%;
     padding-bottom: 20%;
+}
+
+.frame {
+    max-width: 650px;
+    height: 600px;
+}
+
+form {
+    max-width: 1800px;
+    height: auto;
+    padding: 7px;
+}
+
+.forms {
+    width: 100%;
+    height: auto;
+}
+
+.form-text {
+    width: 100%;
+    height: auto;
 }
 
 @media(max-width:650px){

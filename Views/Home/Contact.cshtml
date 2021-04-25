@@ -1,17 +1,32 @@
-﻿@{
-    ViewBag.Title = "Contact";
-}
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+﻿<div class="container text-start">
+    @{
+        ViewBag.Title = "Contact";
+    }
+    <h2>@ViewBag.Title.</h2>
+    <h3>@ViewBag.Message</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+    <address>
+        One Microsoft Way<br />
+        Redmond, WA 98052-6399<br />
+        <abbr title="Phone">P:</abbr>
+        425.555.0100
+    </address>
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+    <address>
+        <strong>Support:</strong>   <a href="mailto:stephenbrooks714@gmail.com">Web Developer</a><br />
+        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+    </address>
+</div>
+
+<div class="container text-center">
+    <center>
+        <h1 class="text-center title-intro">Contact Me</h1>
+        <br /> 
+        <form action="/" method="post">
+            <input type="text" required placeholder="Name" class="form-control" name="name" value="" /> <br />
+            <input type="text" required placeholder="Email" class="form-control" name="email" value="" /> <br />
+            <textarea rows="9" reuired class="form-control" name="message" placeholder="Your Message"></textarea> <br />
+            <button type="submit" class="btn btn-primary">Send It!!!</button>
+        </form>
+    </center>
+</div>

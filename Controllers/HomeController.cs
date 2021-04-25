@@ -10,12 +10,13 @@ namespace Tracey_ASL.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Message = "The Home Page.";
             return View();
         }
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "The About Company Page.";
 
             return View();
         }
@@ -27,10 +28,17 @@ namespace Tracey_ASL.Controllers
             return View();
         }
 
+        public ActionResult Courses()
+        {
+            ViewBag.Message = "Your Course Content page.";
+
+            return View();
+        }
+
         [Authorize]
         public ActionResult Users()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Your Profile page.";
 
             return View();
         }
