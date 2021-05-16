@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'aslwithtracyonline'
         slot-name: 'ASL'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_7f1bdb195f0f483cb1af4a7aabaea6ed }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_6c5984c959594c64b01006080aba4546 }}
         package: .
